@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/leege0610" name="origin"/>
+  <remote fetch="https://github.com/OpenAiCamera-DC100" name="origin"/>
   <default remote="origin" sync-j="4" revision="main"/>
 
-  <project name="device" path="device">
+  <project name="rockchip" path="device/rockchip">
     <linkfile dest="mkfirmware.sh" src="rockchip/common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="rockchip/common/build.sh"/>
     <linkfile dest="rkflash.sh" src="rockchip/common/rkflash.sh"/>
     <linkfile dest="prebuilts/gcc/linux-x86/arm/Cross-compile-tools-readme.txt" src="rockchip/rv1126_rv1109/Cross-compile-tools-readme.txt"/>
   </project>
+  <project name="gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf"/>
+  <project name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"/>
+  <project name="rkbin" path="rkbin"/>
+  <project name="docs" path="docs"/>
+  <project name="buildroot" path="buildroot">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="kernel" path="kernel"/>
+  <project name="u-boot" path="u-boot"/>
+  <project name="dc100_test" path="app/dc100_test"/>
+  <project name="libgdbus" path="app/libgdbus"/>
+  <project name="usb_serial" path="app/usb_serial"/>
+  <project name="alsa-config" path="externel/alsa-config"/>
+  <project name="avb" path="externel/avb"/>
+  <project name="camera_engine_dcaiq" path="externel/camera_engine_dcaiq"/>
+  <project name="common_algorithm" path="externel/common_algorithm"/>
+  <project name="dcmedia" path="externel/dcmedia"/>
+  <project name="deviceio_release" path="externel/deviceio_release"/>
+  <project name="linux-rga" path="externel/linux-rga"/>
+  <project name="lvgl" path="externel/lvgl"/>
+  <project name="minigui" path="externel/minigui"/>
+  <project name="minilogger" path="externel/minilogger"/>
+  <project name="mpp" path="externel/mpp"/>
+  <project name="pcba_adb_test" path="externel/pcba_adb_test"/>
+  <project name="recovery" path="externel/recovery"/>
+  <project name="rk_pcba_test" path="externel/rk_pcba_test"/>
+  <project name="rknn-toolkit" path="externel/rknn-toolkit"/>
+  <project name="rknpu" path="externel/rknpu"/>
+  <project name="rkscript" path="externel/rkscript"/>
+  <project name="rktoolkit" path="externel/rktoolkit"/>
+  <project name="rkupdate" path="externel/rkupdate"/>
+  <project name="rkwifibt" path="externel/rkwifibt"/>
+  <project name="rockx" path="externel/rockx"/>
+  <project name="rtc_demo" path="externel/rtc_demo"/>
+  <project name="thermal_camera" path="externel/thermal_camera"/>
+  <project name="tof_sensor" path="externel/tof_sensor"/>
 </manifest>
