@@ -8,6 +8,7 @@
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="prebuilts/gcc/linux-x86/arm/Cross-compile-tools-readme.txt" src="rv1126_rv1109/Cross-compile-tools-readme.txt"/>
+    <linkfile dest="device/rockchip/.target_product" src="rv1126_rv1109"/>
   </project>
   <project name="gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf"/>
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"/>
