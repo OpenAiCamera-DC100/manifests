@@ -14,6 +14,7 @@
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"/>
   <project name="rkbin" path="rkbin"/>
   <project name="docs" path="docs"/>
+  <project name="tools" path="tools"/>
   <project name="buildroot" path="buildroot">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
