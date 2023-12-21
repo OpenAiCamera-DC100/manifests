@@ -24,28 +24,28 @@
   <project name="dc100_test" path="app/dc100_test"/>
   <project name="libgdbus" path="app/libgdbus"/>
   <project name="usb_serial" path="app/usb_serial"/>
-  <project name="alsa-config" path="externel/alsa-config"/>
-  <project name="avb" path="externel/avb"/>
-  <project name="camera_engine_dcaiq" path="externel/camera_engine_dcaiq"/>
-  <project name="common_algorithm" path="externel/common_algorithm"/>
-  <project name="dcmedia" path="externel/dcmedia"/>
-  <project name="deviceio_release" path="externel/deviceio_release"/>
-  <project name="linux-rga" path="externel/linux-rga"/>
-  <project name="lvgl" path="externel/lvgl"/>
-  <project name="minigui" path="externel/minigui"/>
-  <project name="minilogger" path="externel/minilogger"/>
-  <project name="mpp" path="externel/mpp"/>
-  <project name="pcba_adb_test" path="externel/pcba_adb_test"/>
+  <project name="alsa-config" path="external/alsa-config"/>
+  <project name="avb" path="external/avb"/>
+  <project name="camera_engine_dcaiq" path="external/camera_engine_dcaiq"/>
+  <project name="common_algorithm" path="external/common_algorithm"/>
+  <project name="dcmedia" path="external/dcmedia"/>
+  <project name="deviceio_release" path="external/deviceio_release"/>
+  <project name="linux-rga" path="external/linux-rga"/>
+  <project name="lvgl" path="external/lvgl"/>
+  <project name="minigui" path="external/minigui"/>
+  <project name="minilogger" path="external/minilogger"/>
+  <project name="mpp" path="external/mpp"/>
+  <project name="pcba_adb_test" path="external/pcba_adb_test"/>
   <project name="recovery" path="externel/recovery"/>
-  <project name="rk_pcba_test" path="externel/rk_pcba_test"/>
-  <project name="rknn-toolkit" path="externel/rknn-toolkit"/>
-  <project name="rknpu" path="externel/rknpu"/>
-  <project name="rkscript" path="externel/rkscript"/>
-  <project name="rktoolkit" path="externel/rktoolkit"/>
-  <project name="rkupdate" path="externel/rkupdate"/>
-  <project name="rkwifibt" path="externel/rkwifibt"/>
-  <project name="rockx" path="externel/rockx"/>
-  <project name="rtc_demo" path="externel/rtc_demo"/>
-  <project name="thermal_camera" path="externel/thermal_camera"/>
-  <project name="tof_sensor" path="externel/tof_sensor"/>
+  <project name="rk_pcba_test" path="external/rk_pcba_test"/>
+  <project name="rknn-toolkit" path="external/rknn-toolkit"/>
+  <project name="rknpu" path="external/rknpu"/>
+  <project name="rkscript" path="external/rkscript"/>
+  <project name="rktoolkit" path="external/rktoolkit"/>
+  <project name="rkupdate" path="external/rkupdate"/>
+  <project name="rkwifibt" path="external/rkwifibt"/>
+  <project name="rockx" path="external/rockx"/>
+  <project name="rtc_demo" path="external/rtc_demo"/>
+  <project name="thermal_camera" path="external/thermal_camera"/>
+  <project name="tof_sensor" path="external/tof_sensor"/>
 </manifest>
