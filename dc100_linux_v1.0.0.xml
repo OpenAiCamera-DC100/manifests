@@ -14,7 +14,7 @@
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"/>
   <project name="rkbin" path="rkbin"/>
   <project name="docs" path="docs"/>
-  <project name="tools" path="tools"/>
+  <project name="tools" path="tools">
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-package-file"/>
   </project>
