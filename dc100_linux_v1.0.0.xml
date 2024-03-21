@@ -39,7 +39,7 @@
   <project name="minilogger" path="external/minilogger"/>
   <project name="mpp" path="external/mpp"/>
   <project name="pcba_adb_test" path="external/pcba_adb_test"/>
-  <project name="recovery" path="externel/recovery"/>
+  <project name="recovery" path="external/recovery"/>
   <project name="rk_pcba_test" path="external/rk_pcba_test"/>
   <project name="rknn-toolkit" path="external/rknn-toolkit"/>
   <project name="rknpu" path="external/rknpu"/>
